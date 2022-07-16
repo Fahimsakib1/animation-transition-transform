@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Normal Animation</title>
+
+    <style>
+
+        .box{
+            width: 150px;
+            height: 150px;
+            background-color: skyblue;
+            border: 2px solid black;
+
+            /* transition: width 4s ease 2s, height 4s ease 5s, transform 5s; */
+            transition: width 1s ease, height 1s ease, transform 1s;
+        }
+
+        .box:hover{
+            width: 300px;
+            height: 300px;
+            background-color: coral;
+            transform: rotate(180deg);
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="box">
+
+        <h4> Transition With Animation</h4>
+
+    </div>
+
+    <div class="box">
+
+        <h4> Transition With Animation</h4>
+
+    </div>
+
+    <div class="box">
+
+        <h4> Transition With Animation</h4>
+
+    </div>
+    
+</body>
+</html>
